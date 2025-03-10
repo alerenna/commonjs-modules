@@ -12,8 +12,10 @@ const yourHobbies = require ('./hobbies')
 function mySelf() {
 
     const user = {}
+
+    const fullNameObj = yourName('Michele', 'Foresta')
     
-    user.fullName = `${yourName.firstName = 'Michele'} ${yourName.lastName = 'Foresta'}`
+    user.fullName = `${fullNameObj.firstName} ${fullNameObj.lastName}`
 
     user.hobbies = yourHobbies('danza', 'giardinaggio', 'pesca')
 

@@ -10,7 +10,7 @@ function yourName(firstName, lastName) {
 
     const completeName = {}
 
-    completeName.name = firstName
+    completeName.firstName = firstName
     completeName.lastName = lastName
 
     return completeName
