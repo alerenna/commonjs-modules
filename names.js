@@ -13,8 +13,8 @@ function yourName(firstName, lastName) {
     completeName.name = firstName
     completeName.lastName = lastName
 
-    return yourName
+    return completeName
     
 }
 
-module.exports = {yourName}
+module.exports = yourName

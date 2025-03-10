@@ -14,4 +14,4 @@ function yourHobbies(hobbyOne, hobbyTwo, hobbyThree) {
     return allHobbies
 }
 
-console.log(yourHobbies('Pesca', 'Nuoto', 'Giardinaggio'));
+module.exports = yourHobbies
