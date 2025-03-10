@@ -9,4 +9,18 @@ Crea una funzione che non ha parametri. La funzione dovrebbe restituire un ogget
 const yourName = require ('./names')
 const yourHobbies = require ('./hobbies')
 
+function mySelf() {
+
+    const user = {}
+    
+    user.fullName = `${yourName.firstName = 'Michele'} ${yourName.lastName = 'Foresta'}`
+
+    user.hobbies = yourHobbies('danza', 'giardinaggio', 'pesca')
+
+    return user
+}
+
+console.log(mySelf());
+
+
 
